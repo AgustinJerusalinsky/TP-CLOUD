@@ -149,6 +149,10 @@ locals {
     }
   }
 
+  cognito = {
+    name = "${local.organization}-cognito"
+  }
+
   website = {
     name = "${local.organization}-web"
     objects = {
